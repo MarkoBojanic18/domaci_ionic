@@ -1,13 +1,31 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>signup</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">signup</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-img src="assets/exodus.png" />
+
+  <div class="container">
+    <ion-text>
+      <h1 style="color: #064af5; font-size: 30px">Sign Up Now</h1>
+      <p style="font-size: 16px">Please fill the details and create account</p>
+    </ion-text>
+
+    <div class="form_container">
+      <ion-item>
+        <ion-input placeholder="Full name"> </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input placeholder="Email"> </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="password" placeholder="Password"> </ion-input>
+      </ion-item>
+    </div>
+
+    <ion-button>Sign up </ion-button>
+    <ion-text>
+      <p class="bellow_text">
+        Don't have an account?<a style="color: black"><b> Log in</b></a>
+      </p>
+    </ion-text>
+  </div>
 </ion-content>

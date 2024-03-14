@@ -1,0 +1,45 @@
+ion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure full viewport height */
+  text-align: center;
+}
+
+ion-img {
+  display: block;
+  margin: 100px auto 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  text-align: center;
+}
+
+ion-button {
+  margin-top: 125px;
+  height: 55px;
+  width: 350px;
+  --border-radius: 14px;
+  --border-color: #0f45b6;
+  font-size: 18px;
+}
+
+.bellow_text {
+  font-size: 14px;
+}
+
+.form_container {
+  max-width: 377px;
+  margin: 40px auto 0 auto;
+}
+
+ion-input {
+  margin-top: 25px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 100%;
+  height: 61px;
+  color: #000 !important;
+}
