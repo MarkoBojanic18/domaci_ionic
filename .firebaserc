@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "domaci-ionic-master": {
+      "hosting": {
+        "app": [
+          "domaci-ionic-master"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "domaci-ionic-master"
+  }
+}
