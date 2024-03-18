@@ -7,24 +7,31 @@
       <p style="font-size: 16px">Please fill the details and create account</p>
     </ion-text>
 
-    <div class="form_container">
-      <ion-item>
-        <ion-input placeholder="Full name"> </ion-input>
-      </ion-item>
+    <form>
+      <div class="ion-padding">
+        <ion-item>
+          <ion-input placeholder="name" class="input"></ion-input>
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-item>
+        <ion-item>
+          <ion-input placeholder="email" class="input"></ion-input>
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-item>
+        <ion-item>
+          <ion-input placeholder="password" class="input"></ion-input>
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </ion-item>
+      </div>
+    </form>
 
-      <ion-item>
-        <ion-input placeholder="Email"> </ion-input>
-      </ion-item>
-
-      <ion-item>
-        <ion-input type="password" placeholder="Password"> </ion-input>
-      </ion-item>
-    </div>
-
-    <ion-button>Sign up </ion-button>
+    <ion-button [routerLink]="['/login']">Sign up </ion-button>
     <ion-text>
       <p class="bellow_text">
-        Don't have an account?<a style="color: black"><b> Log in</b></a>
+        Have an account?<a
+          style="color: black; text-decoration: none"
+          [routerLink]="['/login']"
+          ><b> Log in</b></a
+        >
       </p>
     </ion-text>
   </div>

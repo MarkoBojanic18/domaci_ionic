@@ -10,10 +10,14 @@
       </p>
     </ion-text>
 
-    <ion-button>Get Started </ion-button>
+    <ion-button [routerLink]="['/login']">Get Started </ion-button>
     <ion-text>
       <p class="bellow_text">
-        Do you have an account?<a style="color: black"><b> Log In</b></a>
+        Do you have an account?<a
+          style="color: black; text-decoration: none"
+          [routerLink]="['/login']"
+          ><b> Log In</b></a
+        >
       </p>
     </ion-text>
   </div>
